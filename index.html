@@ -24,9 +24,9 @@
         <!-- Add your site or application content here -->
         <div class="swiper-container fullscreen welcomgroup" id="welcome">
             <div class="swiper-wrapper">
-                <div class="swiper-slide welcome welcome1"></div>
-                <div class="swiper-slide welcome welcome2"></div>
-                <div class="swiper-slide welcome welcome3"></div>
+                <div class="swiper-slide welcome welcome1 fullscreen"></div>
+                <div class="swiper-slide welcome welcome2 fullscreen"></div>
+                <div class="swiper-slide welcome welcome3 fullscreen"></div>
             </div>
             <!-- 如果需要分页器 -->
             <div class="swiper-pagination"></div>
@@ -42,7 +42,7 @@
         <div class="busbottom welcomgroup"></div>
 
         <div class="main fullscreen" id="main">
-            <div class="nav">
+            <div class="nav" id="nav">
                 <ul>
                     <li><img src="img/logo.png"/></li>
                     <li><a href="#" class="active">HOME 首页</a></li>
@@ -52,7 +52,24 @@
                     <li><a href="#">CONTACTS 联系</a></li>
                 </ul>
             </div>
+            <div class="mobilenav" id="mobilenav">
+                <div class="item" id="togglebtn"><img src="img/logo.png"/></div>
+                <ul id="mobilenavlist">
+                    <li class="item"><a href="#" class="active">HOME 首页</a></li>
+                    <li class="item"><a href="#">GALLERY 作品</a></li>
+                    <li class="item"><a href="#">ABOUT US 团队</a></li>
+                    <li class="item"><a href="#">SERVICE 服务</a></li>
+                    <li class="item"><a href="#">CONTACTS 联系</a></li>
+                </ul>
+
+            </div>
+
+            <div id="container" class="container">
+
+            </div>
         </div>
+
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
