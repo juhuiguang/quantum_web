@@ -20,6 +20,10 @@ $(function(){
         // scrollbar: '.swiper-scrollbar',
     });
 
+    if(window.location.href.indexOf("index")<0){
+        gotomain();
+    }
+
     $("#menu").click(function(){
         gotomain();
     });
@@ -39,6 +43,7 @@ $(function(){
 
     function gotomain(){
         $("#main").show().animate({left:0},800,null,function(){
+            $("#nav").show();
             $("#main").css({position:"relative"});
             $(".welcomgroup").remove();
         });

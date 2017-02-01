@@ -166,7 +166,9 @@ textarea {
     position:fixed;
     top:0;
     left:0;
+    display:none;
 }
+
 .main .mobilenav{
     width:100%;
     height:auto;
@@ -221,6 +223,7 @@ textarea {
 
 .main .container{
     margin-top:60px;
+    text-align:center;
 }
 
 
